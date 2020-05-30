@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>PortFolio Homepage</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="face-api.min.js"></script>
+  <script defer src="script2.js"></script>
+  <style>
+   body{
+      margin: 0;
+      padding: 0;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    canvas {
+      margin-top: 50px;
+      position:absolute;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="nav-wrapper">
+      <div class="left-side">
+        <div class="nav-link-wrapper">
+          <a href="index.html">Home</a>
+        </div>
+
+        <div class="nav-link-wrapper">
+          <a href="about.html">About</a>
+        </div>
+
+        <div class="nav-link-wrapper active-nav-link">
+          <a href="face_detection.html">Face Detection</a>
+        </div>
+
+        <div class="nav-link-wrapper">
+          <a href="face_Recognition.html">Face Recognition</a>
+        </div>
+      </div>
+
+      <div class="right-side">
+        <div class="brand">
+          KISLAYA KUMAR
+        </div>
+      </div>
+    </div>
+  <video id="video" width="720" height="560" autoplay muted></video>
+</body>
+</html>
